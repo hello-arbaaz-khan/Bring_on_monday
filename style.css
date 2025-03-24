@@ -1,0 +1,1116 @@
+@font-face {
+    font-family: 'avenirnext';
+    src: url('/fonts/AvenirNextLTPro-Regular.otf') format('opentype');
+    font-weight: 400; /* Regular weight */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'avenirnext';
+    src: url('/fonts/AvenirNextLTPro-Bold.otf') format('opentype');
+    font-weight: 700; /* Bold weight */
+    font-style: normal;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'avenirnext';
+}
+.perint-container{
+    width: 100%;
+}
+img{
+    max-width: 100%;
+}
+.header {
+  
+    box-shadow: 5px 5px 5px #00000022;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 25px 7px 25px;
+    background-color: transparent;
+    transition: background-color 0.10 ease;
+}
+.navbar.scrolled {
+    background-color: #333091;
+
+}
+.right-container {
+   display: flex;
+   column-gap: 20px;
+   align-items: center;
+}
+.right-container .close-nav{
+    display: none;
+}
+.right-container  .open-nav{
+    display: none;
+}
+
+.right-container .Button a {
+    color: white;
+    text-decoration: none;
+    font-family: system-ui;
+    font-weight: 500;
+}
+.Button{
+    background-color: #ee4050;
+    padding: 15px;
+    border-radius: 35px;
+    font-size: 14px;
+    width: 116px;
+    text-align: center;
+    transition: all 1s;
+}
+.right-container .Button a:hover{
+    color: #0a0a0a;
+}
+.right-container ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-family: system-ui;
+}
+.perint-li{
+    display: flex;
+ }
+.right-container ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s;
+    padding: 5px 15px;
+}
+.right-container ul li a:hover {
+    color: #d7e300;
+}
+.banner {
+    background-image: url(./imeges/./man-container.jpg);
+    padding: 24px 0px 0px 0px;
+}
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.header-1{
+    width: 75%;
+    font-size: 28px;
+    font-weight: bolder;
+    color: white;
+}
+.header-1 h2{
+    font-size: 38px;
+}
+.tex-content{
+    width: 70%;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: system-ui;
+}
+.Button-link{
+    padding: 13px;
+    width: 158px;
+    border-radius: 41px;
+    background-color: #ee4050;
+    font-size: 17px;
+    font-family: system-ui;
+    font-weight: bold;
+}
+.Button-link a {
+    text-decoration: none;
+    color: white;
+}
+ .spacing {
+    margin: 0px 0px 20px 24px;
+ }
+ .col1{
+    padding-top: 160px;
+ }
+.png{ 
+    width: 550px;
+    display: block;
+}
+.baner-tex1{
+    position: absolute;
+    top: 385px;
+    right: 435px;
+    height: 82px;
+}
+.baner-tex2{
+    position: absolute;
+    bottom: 66px;
+    right: 433px;
+}
+.baner-tex3{
+    position: absolute;
+    bottom: 190px;
+    right: 133px;
+    width: 245px;
+}
+.baner-tex4{
+    position: absolute;
+    bottom: 271px;
+    right: 80px;
+}
+.gif{
+    position: absolute;
+    bottom: 212px;
+    right: 235px;
+    height: 450px;
+}
+
+.col3{
+    position: relative;
+}
+.left-container img{
+    height: 62px;
+}
+.w{
+    display: block;
+}
+.content-row{
+    display: grid;
+    grid-template-columns:1fr 1fr ; 
+}
+.gif-2{
+    position: absolute;
+    top: 924px;
+    height: 59px;
+    left: 50px;
+}
+.gif-3{
+    position: absolute;
+    top: 865px;
+    height: 70px;
+    left: 88px;
+}
+.gif-4{
+    position: absolute;
+    top: 885px;
+    height: 70px;
+    left: 141px;
+}
+.gif-5{
+    position: absolute;
+    top: 885px;
+    height: 66px;
+    left: 197px;
+}
+.text_content_div{
+    padding: 25px 89px 25px 74px;
+}
+h3{
+    font-size: 39px;
+    font-family: system-ui;
+    color: #333091;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+h6{
+    font-size: 15px;
+    font-family: system-ui;
+    color: #333091;
+    line-height: 22px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+p{
+    color: #333091;
+    font-family: system-ui;
+    margin-bottom: 40px;
+}
+button{
+    background-color: #333091;
+    font-family: Poppins, sans-serif;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 11px 20px 11px 20px;
+    border-radius: 40px;
+}
+.baner1{
+   display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #ee4050;
+    padding-top: 150px;
+}
+.baner1 .tex-row h3{
+    color: white;
+    font-size: 43px;
+}
+ul{
+    color: white;
+    font-family: system-ui;
+    margin-bottom: 30px;
+}
+.tex-row{
+   padding: 0px 63px 0px 65px;
+}
+.tex-row ul li{
+line-height: 20px;
+margin-bottom: 5px;
+}
+.pic-row-div{
+    margin-top: 80px;
+    position: relative;
+    height: 559px;
+}
+.pic-row-div .photo1{
+    width: 100px;
+    top: 114px;
+    height: 126px;
+    position: absolute;
+    left: 80px;
+}
+.pic-row-div .photo2{
+    position: absolute;
+    height: 540px;
+    left: 136px;
+    width: 340px;
+}
+.tex1{
+    position: absolute;
+    height: 60px;
+    top: 345px;
+    left: 379px;
+}
+.tex2{
+    position: absolute;
+    height: 60px;
+    top: 215px;
+    left: 379px;
+}
+.tex3{
+    position: absolute;
+    height: 60px;
+    top: 156px;
+    left: 379px;
+}
+.tex4{
+    position: absolute;
+    height: 60px;
+    height: 60px;
+    top: 277px;
+    left: 379px;
+}
+.tex5{
+    position: absolute;
+    height: 144px;
+    top: 355px;
+    left: 38px;
+}
+.tex6{
+    position: absolute;
+    left: 393px;
+    bottom: 16px;
+    height: 92px;
+}
+.tex7{
+    position: absolute;
+    left: 416px;
+    bottom: 492px;
+    height: 92px;
+}
+.png1{
+    position: absolute;
+    left: 106px;
+    bottom: 511px;
+    height: 57px;
+}
+.sign{
+    position: absolute;
+    top: 1232px;
+    left: 72px;
+    height: 141px;
+}
+
+.button {
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 25px;
+    /* width: 158px; */
+    border-radius: 41px;
+    
+    font-size: 17px;
+    font-family: system-ui;
+    font-weight: bold;
+    display: inline-block;
+}
+.button:hover {
+background-color: #d7e300;
+color: black;
+}
+.button-primary {
+    background-color: #ee4050;
+    color: rgb(255, 255, 255);
+}
+.button-secondary {
+    background-color: #333091;
+    color: white;
+}
+.padding{
+    padding: 13px;
+    width: 127px;
+}
+.section-4{
+    background-image: url(https://uploads-ssl.webflow.com/60656386cb77057bb09f78eb/6066a36d593d3ecd83e3efe1_2-layers.jpg);
+    width: 100%;
+    padding: 120px 25px;
+}
+.chiled-section-4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.section-4 h3{
+   color: white;
+   margin-bottom: 30px;
+}
+.tab-menu{
+    width: 100%; 
+ }
+.tab.active {   
+    position: relative;
+    height: 65px;
+    width: 460px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    padding: 15px 15px;
+    border-radius: 5px;
+    background-color: #e8e1e1bf;
+    color: rgb(94, 33, 168);
+}
+.tab{
+    position: relative;
+    height: 65px;
+    width: 460px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    padding: 15px 15px;
+    border-radius: 5px;
+    background-color: #ffffff4a;
+    color: black;
+}
+.tab img{
+    margin-right: 15px;
+    height: 35px;
+    width: 35px;
+}
+.blue-arro{
+position: absolute;
+right: 0;
+}
+.card{
+    height: 245px;
+    padding: 27px 96px 10px 40px;
+    background-color: white;
+    border-radius: 19px;
+    width: 530px;
+    display: none;
+
+}
+.card.active{
+    display: block;
+}
+
+.card p{
+    font-size: 14px;
+    font-weight: 500;
+}
+.card h3{
+    color: #3649af;
+    font-size: 25px;
+    margin-bottom: 13px;
+}
+.tab-menu2{
+    position: relative;
+    margin: 19px 0px 0px 27px;
+}
+.left-corner-gif{
+    position: absolute;
+    bottom: 18px;
+    left: -48px;
+}
+.arow-gif{
+    position: absolute;
+    bottom: -26px;
+    left: 143px;
+}
+.hand-pic{
+    position: absolute;
+    top: 123px;
+    right: 0px;
+    width: 190px;
+    display: none;
+}
+.hand-pic.active {
+    display: block;
+}
+.hand-pic2{
+    right: -24px;
+    position: absolute;
+    top: 15px;
+    height: 381px;
+    width: 261px;
+}
+.hand-pic3{
+    position: absolute;
+    top: 3px;
+    right: -25px;
+}
+.hand-pic4{
+    position: absolute;
+    top: -37px;
+    right: -25px;
+    height: 200px;
+}
+.section-5{
+   padding-top: 50px;
+}
+.section-5 h3{
+    text-align: center;
+}
+.perint-atag{
+    display: flex;
+    justify-content: center;
+    column-gap: 25px;
+}
+.perint-atag a{
+    text-decoration: none;
+}
+.filter.setActive {
+    background-color: #cfbfed;
+    padding: 9px 17px;
+    font-size: 12px;
+    font-weight: 500;
+    border: solid#cfbfed 1px;
+}
+.filter {
+    background-color: #fff;
+    padding: 9px 17px;
+    font-size: 12px;
+    font-weight: 500;
+    color: black;
+    border: solid#cfbfed 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (max-width : 820px) {
+    .row {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .header-1{
+        width: 100%;
+        font-size: 28px;
+        font-weight: bolder;
+        color: white;
+    }
+    .header-1 h2{
+        font-size: 32px;
+        width: 447px;
+    }
+    .tex-content{
+        width: 58%;
+        color: white;
+        font-size: 15px;
+        font-weight: 500;
+        font-family: system-ui;
+    }
+    .spacing {
+        margin: 0px 0px 20px 185px;
+     }
+    .png{ 
+        width: 367px;
+        display: block;
+        height: 433px;
+        margin: 50px 0px 0px 30px;
+    }
+    .baner-tex1{
+        position: absolute;
+        top: 254px;
+        right: 596px;
+        height: 56px;
+    }
+    .baner-tex2{
+        position: absolute;
+        bottom: 48px;
+        right: 601px;
+        height: 62px;
+    }
+    .baner-tex3{
+        position: absolute;
+        bottom: 139px;
+        right: 270px;
+        width: 180px;
+    }
+    .baner-tex4{
+        position: absolute;
+        bottom: 202px;
+        right: 235px;
+        height: 58px;
+    }
+    .gif{
+        position: absolute;
+        bottom: 0px;
+        right: 395px;
+         height: 425px;
+    }
+    .content-row{
+        display: grid;
+        grid-template-columns:1fr ; 
+    }
+    .right-container {
+        display: flex;
+        column-gap: 5px;
+        align-items: center;
+     }
+     .left-container img{
+        height: 50px;
+    }
+    .padding{
+        padding: 12px;
+        width: 102px;
+        font-size: 12px;
+}
+.right-container ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s;
+    padding: 5px 9px;
+}
+.banner {
+    background-image: url(man-container.jpg);
+}
+.col1{
+    padding-top: 140px;
+ }
+ .imgs-perint{
+    position: relative;
+ }
+ .w{
+    display: block;
+    
+}
+.gif-2{
+    position: absolute;
+    top: 288px;
+    height: 59px;
+    left: 69px;
+}
+.gif-3{
+    position: absolute;
+    top: 230px;
+    height: 70px;
+    left: 117px;
+}
+.gif-4{
+    position: absolute;
+    top: 241px;
+    height: 70px;
+    left: 166px;
+}
+.gif-5{
+    position: absolute;
+    top: 242px;
+    height: 66px;
+    left: 249px;
+}
+.sign{
+    position: absolute;
+    top: 563px;
+    left: 99px;
+    height: 122px;
+}
+.text_content_div{
+    padding: 90px 0px 0px 0px;
+}
+h3{
+    font-size: 34px;
+    font-family: system-ui;
+    color: #333091;
+    margin-bottom: 20px;
+    font-weight: 800;
+    padding-left: 195px;
+}
+h6{
+    font-size: 15px;
+    font-family: system-ui;
+    color: #333091;
+    line-height: 22px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+p{
+    color: #333091;
+    font-family: system-ui;
+    margin-bottom: 40px;
+}
+button{
+    background-color: #333091;
+    font-family: Poppins, sans-serif;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 11px 20px 11px 20px;
+    border-radius: 40px;
+}
+.baner1{
+    display: grid;
+     grid-template-columns: 1fr;
+     background-color: #ee4050;
+     padding-top: 150px;
+ }
+    }
+
+
+
+
+
+
+
+
+
+
+   /* Smartphones (landscape) ----------- */
+@media only screen and (max-width : 490px) {
+    .header {
+  
+        box-shadow: 5px 5px 5px #00000022;
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+    }
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding: 13px 15px 7px 14px;
+    }
+    .right-container ul{
+        position: absolute;
+        display: grid;
+        right: -100%;
+        background-color: white;
+        color: black;
+        height: 100vh;
+        top: 0;
+        width: 80%;
+        z-index: 9;
+         transition: all 0.5s ease; 
+     }
+    .right-container ul.active{
+        right: 0;
+     }
+     .right-container .close-nav{
+       display: block;
+        position: absolute;
+        top: 20px;
+        left: 3px;
+        border: none;
+        padding: 0;
+        background-color: white;
+        border-radius: 0px;
+        color: #333091;
+        font-size: 42px;
+    }
+    .right-container  .open-nav{
+        display: block;
+        border: none;
+    }
+    .right-container .nav-botton {
+     display: flex;
+
+    }
+    .right-container  .button{
+        margin-left: 0px;
+    }
+    .right-container ul li a{
+       color: #333091;
+    }
+    .nav-img{
+        height: 15px;
+    }
+    ul{
+        display: grid;
+    }
+    .perint-li{
+       display: flow;
+        position: absolute;
+        top: 80px;
+        left: 10px;
+        font-size: 30px;
+    }
+    .col1{
+        padding-top: 75px;
+     }
+    .header-1 h2{
+        font-size: 27px;
+        width: 447px;
+        padding-left: 15px;
+    }
+    .tex-content{
+        width: 79%;
+        color: white;
+        font-size: 16px;
+        font-weight: 500;
+        font-family: system-ui;
+        padding-left: 15px;
+    }
+    .png{
+        width: 417px;
+        display: block;
+        height: 475px;
+        margin: 50px 0px 0px 54px;
+    }             
+    .gif{
+        position: absolute;
+        bottom: 1px;
+        right: 58px;
+        height: 456px;
+    }
+    .gif-2{
+        position: absolute;
+        top: 173;
+        height: 59px;
+        left: 33;
+    }
+    .gif-3{
+        position: absolute;
+        top: 135px;
+        height: 70px;
+        left: 70px;
+    }
+    .gif-4{
+        position: absolute;
+        top: 150px;
+        height: 53px;
+        left: 114px;
+    }
+    .gif-5{
+        position: absolute;
+        top: 149px;
+        height: 66px;
+        left: 151px;
+    }
+    .sign{
+        position: absolute;
+        top: 338px;
+        left: 99px;
+        height: 120px;
+    }
+    .text_content_div{
+      padding: 35px 15px 50px 15px;
+    }
+    .text_content_div h3{
+        padding-left: 58px;
+        position: relative;
+    }
+    .text_content_div h6{
+        font-size: 17px;
+    }
+    .baner-tex1{
+        position: absolute;
+        top: 312px;
+        right: 288px;
+        height: 56px;
+    }
+    .baner-tex2{
+        position: absolute;
+        bottom: 27px;
+        right: 277px;
+        height: 62px;
+    }
+    .baner-tex3{
+        position: absolute;
+        bottom: 143px;
+        left: 299px;
+        width: 180px;
+    }
+    .baner-tex4{
+        position: absolute;
+        bottom: 213px;
+        left: 258px;
+        height: 54px;
+    }
+    .spacing {
+        margin: 0px 0px 20px 0px;
+     }
+     .tex-row{
+        padding: 0px 40px 0px 40px;
+         }
+         .tex-row h3{
+            padding-left: 0px;
+         }
+     .pic-row-div{
+        margin-top: 80px;
+        position: relative;
+        height: 559px;
+    }
+    .pic-row-div .photo1{
+        width: 100px;
+        top: 83px;
+        height: 100px;
+        position: absolute;
+        left: 80px;
+    }
+    .pic-row-div .photo2{
+        position: absolute;
+        height: 379px;
+        left: 138px;
+        width: 267px;
+    }
+    .tex1{
+        position: absolute;
+        height: 60px;
+        top: 234px;
+        left: 299px;
+    }
+    .tex2{
+        position: absolute;
+        height: 54px;
+        top: 146px;
+        left: 283px;
+    }
+    .tex3{
+        position: absolute;
+        height: 52px;
+        top: 97px;
+        left: 302px;
+    }
+    .tex4{
+        position: absolute;
+        height: 59px;
+        top: 189px;
+        left: 300px;
+    }
+    
+    .tex5{
+        position: absolute;
+        height: 106px;
+        top: 225px;
+        left: 99px;
+    }
+    .tex6{
+        position: absolute;
+        left: 352px;
+         bottom: 171px;
+        height: 68px;
+    }
+    .tex7{
+        position: absolute;
+        left: 368px;
+        bottom: 504px;
+        height: 69px;
+    }
+    .png1{
+        position: absolute;
+        left: 109px;
+        bottom: 524px;
+        height: 51px;
+    }
+    .button {
+        text-decoration: none;
+        text-align: center;
+        /* padding: 14px 25px; */
+        /* width: 158px; */
+        border-radius: 41px;
+        /* font-size: 17px; */
+        font-family: system-ui;
+        font-weight: bold;
+        display: inline-block;
+        margin-left: 140px;
+    }
+    .button-secondary {
+        background-color: #333091;
+        color: white;
+        padding: 10px;
+        width: 136px;
+    }
+    .baner1{
+        display: grid;
+         grid-template-columns: 1fr;
+         background-color: #ee4050;
+         padding-top: 35px;
+     }
+     .baner1 .tex-row h3{
+        color: white;
+        font-size: 32px;
+        text-align: center;
+    }
+    .tex-row ul li{
+        line-height: 17px;
+        margin-bottom: 5px;
+        }
+    }
+
+
+
+
+
+
+    
+       /* Smartphones (landscape) ----------- */
+@media only screen and (max-width : 380px) {
+    .header-1 h2{
+        font-size: 27px;
+        width: 367px;
+        padding-left: 0px;
+        text-align: center;
+    }
+    .tex-content{
+        width: 100%;
+        color: white;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: system-ui;
+        text-align: center;
+        padding: 0px 6px 0px 6px;
+    }
+    .left-container img{
+        height: 34px;
+    }
+    .button {
+        text-decoration: none;
+        text-align: center;
+        /* padding: 14px 25px; */
+        /* width: 158px; */
+        border-radius: 41px;
+        /* font-size: 17px; */
+        font-family: system-ui;
+        font-weight: bold;
+        display: inline-block;
+        margin-left: 93px;
+    }
+    .baner1 .tex-row h3{
+        color: white;
+        font-size: 31px;
+        text-align: center;
+    }
+    .png{
+        width: 235px;
+        display: block;
+        height: 272px;
+        margin: 50px 0px 0px 70px;
+    }
+    .gif{
+        position: absolute;
+        bottom: 1px;
+        right: 87px;
+        height: 271px;
+    }
+    .baner-tex1{
+        position: absolute;
+        top: 176px;
+        right: 208px;
+        height: 38px;
+    }
+    .baner-tex2{
+        position: absolute;
+        bottom: 21px;
+        right: 232px;
+        height: 39px;
+    }
+    .baner-tex3{
+        position: absolute;
+        bottom: 84px;
+        left: 196px;
+        width: 109px;
+    }
+    .baner-tex4{
+        position: absolute;
+        bottom: 114px;
+        left: 165px;
+        height: 36px;
+    }
+    .pic-row-div .photo2{
+        position: absolute;
+        height: 361px;
+        left: 76px;
+        width: 241px;
+    } .tex1{
+        position: absolute;
+        height: 48px;
+        top: 212px;
+        left: 219px;
+    }
+    .tex2{
+        position: absolute;
+        height: 41px;
+        top: 144px;
+        left: 218px;
+    }
+    .tex3{
+        position: absolute;
+        height: 37px;
+        top: 107px;
+        left: 220px;
+    }
+    .tex4{
+        position: absolute;
+        height: 43px;
+        top: 181px;
+        left: 219px;
+    }
+    
+    .tex5{
+        position: absolute;
+        height: 81px;
+        top: 237px;
+        left: 62px;
+    }
+    .tex6{
+        position: absolute;
+        left: 268px;
+        bottom: 198px;
+        height: 50px;
+    }
+    .tex7{
+        position: absolute;
+        left: 260px;
+        bottom: 513px;
+        height: 52px;
+    }
+    .png1{
+        position: absolute;
+        left: 31px;
+        bottom: 545px;
+        height: 46px;
+    }
+
+
+}
+
+
